@@ -1,0 +1,28 @@
+body{
+  margin: 20px;
+  padding: 0;
+  background-color: black;
+}
+
+.container{
+  width: 600px;
+  margin: auto;
+  border: 1px solid white;
+}
+
+.main-img img{
+  width: 100%;
+  border: white solid 1px;
+}
+
+.imgs img{
+  width: 100%;
+  border: white solid 1px;
+
+
+}
+.imgs{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:1px;
+}
